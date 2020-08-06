@@ -45,12 +45,5 @@ void main(void)
 {
 	temperature_display_init();
 
-
-	if (0) {
 	probe_connection_init(temperature_data_callback);
-	} else {
-		temperature_display_set_inner_temperature(25, 'C');
-		temperature_display_set_ambient_temperature(35, 'C');
-		temperature_display_update();
-	}
 }

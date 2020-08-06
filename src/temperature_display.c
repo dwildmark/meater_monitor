@@ -9,7 +9,6 @@ LOG_MODULE_REGISTER(temp_display, 4);
 
 static struct device *dev = NULL;
 
-static char current_unit = 'C';
 static char inner_temp_buffer[12] = {0};
 static char ambient_temp_buffer[12] = {0};
 
