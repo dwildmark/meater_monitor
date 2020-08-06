@@ -7,3 +7,5 @@ manifest:
       remote: zephyrproject-rtos
       revision: master
       import: true
+  self:
+    path: meater_monitor
