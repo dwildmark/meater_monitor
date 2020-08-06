@@ -23,7 +23,7 @@
 #include <temperature_display.h>
 #include <probe_connection.h>
 
-LOG_MODULE_REGISTER(main, 4);
+LOG_MODULE_REGISTER(probe_conn, 4);
 
 static void start_scan(void);
 
